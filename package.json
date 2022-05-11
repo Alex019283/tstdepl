@@ -1,0 +1,24 @@
+{
+  "name": "simple-keyboard-npm-demos",
+  "version": "1.0.0",
+  "description": "Javascript Virtual Keyboard for Kiosks, Mobile and Web",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "publish": "gh-pages dist" 
+  },
+  "dependencies": {
+    "simple-keyboard": "^3.4.97"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "keywords": [
+    "virtual",
+    "keyboard",
+    "onscreen",
+    "kiosk"
+  ]
+}
